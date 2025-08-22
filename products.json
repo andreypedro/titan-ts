@@ -1,0 +1,22 @@
+[
+  { "id": 1, "name": "Camisa", "price": 59.9 },
+  { "id": 2, "name": "Tênis", "price": -120 },
+  { "id": "3", "name": "", "price": 89.9 },
+  {
+    "id": 4,
+    "name": "Eletrônicos",
+    "price": 0,
+    "children": [
+      { "id": 5, "name": "Fone de ouvido", "price": 199.9 },
+      {
+        "id": 6,
+        "name": "Celulares",
+        "price": 0,
+        "children": [
+          { "id": 7, "name": "iPhone", "price": 7999.9 },
+          { "id": "8", "name": "", "price": -2500 }
+        ]
+      }
+    ]
+  }
+]
